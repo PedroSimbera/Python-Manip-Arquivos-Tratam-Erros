@@ -43,3 +43,5 @@
 #     print("Finalizando o programa...")
 
 # Nesse caso, o bloco finally garante que o arquivo seja fechado corretamente, independentemente de ocorrer uma exceção ou não.
+
+# É possível também usar condicionais para tratar erros, como if e else, garantindo que a entrada seja a adequada
