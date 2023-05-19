@@ -1,7 +1,9 @@
 # A manipulação de arquivos em Python é uma tarefa comum e útil para lidar com dados persistentes. Python fornece uma série de funções e métodos embutidos para trabalhar com arquivos de texto e binários. 
 
 # Abrindo um arquivo:
-# Para abrir um arquivo em Python, você pode usar a função embutida open(). Ela recebe dois argumentos principais: o caminho do arquivo e o modo de abertura. O modo de abertura pode ser "r" (leitura), "w" (escrita), "a" (anexação), "x" (criação exclusiva) ou "b" (modo binário). Por exemplo, para abrir um arquivo chamado "arquivo.txt" em modo de leitura, você pode fazer o seguinte:
+# Para abrir um arquivo em Python, você pode usar a função embutida open(). Ela recebe dois argumentos principais: o caminho do arquivo e o modo de abertura. O modo de abertura pode ser "r" (leitura), "w" (escrita), "a" (anexação - APPEND - ADICIONAR ALGO), "x" (criação exclusiva/ EXECUÇÃO) ou "b" (modo binário). 
+
+# Por exemplo, para abrir um arquivo chamado "arquivo.txt" em modo de leitura, você pode fazer o seguinte:
 
         # arquivo = open("arquivo.txt", "r")
 
@@ -30,3 +32,14 @@
         #     print(conteudo)
 
 # Nesse exemplo, o arquivo é automaticamente fechado quando o bloco with é concluído.
+
+# open("teste.txt", "x")
+
+# conteudo = open("arquivo.txt", "w")
+# conteudo.write("Uma linha qualquer")
+# conteudo.write("\n segunda linha \n")
+# conteudo.read()
+# conteudo = open("arquivo.txt", "r")
+# print(conteudo.read())
+
+
