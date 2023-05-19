@@ -45,3 +45,5 @@
 # Nesse caso, o bloco finally garante que o arquivo seja fechado corretamente, independentemente de ocorrer uma exceção ou não.
 
 # É possível também usar condicionais para tratar erros, como if e else, garantindo que a entrada seja a adequada
+
+# Inclusive o While, que permite solicitar novas entradas ao usuário, enquanto o valor digitado não for o desejado.
