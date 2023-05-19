@@ -43,3 +43,8 @@
 # print(conteudo.read())
 
 
+# import requests
+# ler = requests.get("xxxxxxxxxxxxx")
+# # print(ler)
+# with open("arquivo000.txt", "wb") as arquivo:
+#             arquivo.write(ler.content)
