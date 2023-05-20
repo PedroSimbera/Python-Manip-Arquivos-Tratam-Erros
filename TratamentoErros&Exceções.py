@@ -1,4 +1,4 @@
-# Falhas são diferentes de erros, pois os erros são pontenciais erros de semânticas e ou sintaxe das lingaguens. Já as falhas são comportamentos do algoritmo diferente daquele que foi previsto pelo programador.
+# Falhas são diferentes de erros, pois os erros são pontenciais erros de  sintaxe das lingaguens. Já as falhas são comportamentos do algoritmo diferente daquele que foi previsto pelo programador.
 
 # Busque os erros e as falhas na documentação python
 
